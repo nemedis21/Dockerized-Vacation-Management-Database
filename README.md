@@ -27,5 +27,7 @@ A comprehensive, containerized database solution developed as part of the **Info
 3. **Initialize Telemetry:** `docker exec -i timescaledb psql -U pguser -d vacation_pg < timescale/pg_schema.sql`
 4. **Run Analytics:** `docker run --rm [options] python query_aggregates.py`
 
----
-*Developed by Timur Selivanov & Artur Volkov as part of the Database Systems module at IMC Krems.*
+## 👥 Collaborators
+This project was developed as a team assignment at **IMC University of Applied Sciences Krems**.
+- **Timur Selivanov** (Data Simulation & TimescaleDB logic)
+- **Artur Volkov** (MariaDB Schema & SQL Queries)
